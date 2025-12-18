@@ -10,20 +10,16 @@ This project involves a comprehensive analysis of used car listings to uncover p
 
 To ensure **data integrity** and transparency for stakeholders, original data columns were preserved alongside cleaned versions to allow for full transformation tracing.
 
-* 
-**Missing Value Imputation**: Used model-wise medians to fill gaps in Mileage and Power data.
+* **Missing Value Imputation**: Used model-wise medians to fill gaps in Mileage and Power data.
 
 
-* 
-**Normalization**: Standardized pricing units (Lakh normalization) and flagged 1,234 blank entries for review.
+* **Normalization**: Standardized pricing units (Lakh normalization) and flagged 1,234 blank entries for review.
 
 
-* 
-**Outlier Management**: Preserved an extreme 6.5 million km outlier in "Kilometers Driven" to maintain data transparency.
+* **Outlier Management**: Preserved an extreme 6.5 million km outlier in "Kilometers Driven" to maintain data transparency.
 
 
-* 
-**Contextual Logic**: Resolved blanks and inconsistencies in "Owner Type" and "Fuel Type" using business logic.
+* **Contextual Logic**: Resolved blanks and inconsistencies in "Owner Type" and "Fuel Type" using business logic.
 
 
 
@@ -33,8 +29,7 @@ To ensure **data integrity** and transparency for stakeholders, original data co
 
 Advanced Excel techniques were used to add analytical depth to the dataset:
 
-* 
-**Granular Segmentation**: Utilized **Text-to-Column** to split car names into **Brand** and **Model**, enabling specific analysis of brand performance and pricing tiers.
+* **Granular Segmentation**: Utilized **Text-to-Column** to split car names into **Brand** and **Model**, enabling specific analysis of brand performance and pricing tiers.
 
 
 
@@ -44,24 +39,19 @@ Advanced Excel techniques were used to add analytical depth to the dataset:
 
 The dashboard translates complex data into actionable stories:
 
-* 
-**Price Trends**: Diesel cars command the highest resale value (avg. ₹10.89L), followed by Petrol (₹4.70L) and CNG (₹3.17L).
+* **Price Trends**: Diesel cars command the highest resale value (avg. ₹10.89L), followed by Petrol (₹4.70L) and CNG (₹3.17L).
 
 
-* 
-**Market Demand**: Mumbai leads in both listings (949) and average price (₹7.84L), indicating high buyer power.
+* **Market Demand**: Mumbai leads in both listings (949) and average price (₹7.84L), indicating high buyer power.
 
 
-* 
-**Efficiency Metrics**: Diesel cars outperform in fuel efficiency (18.75 km/l), while Petrol cars lead in average power (96.9 bhp).
+* **Efficiency Metrics**: Diesel cars outperform in fuel efficiency (18.75 km/l), while Petrol cars lead in average power (96.9 bhp).
 
 
-* 
-**Resale Gap**: First-owner vehicles retain **₹6.36L more value** on average than second-owner vehicles.
+* **Resale Gap**: First-owner vehicles retain **₹6.36L more value** on average than second-owner vehicles.
 
 
-* 
-**Inventory Dominance**: Maruti holds the highest listing count (144), suggesting strong opportunities for co-branded marketing.
+* **Inventory Dominance**: Maruti holds the highest listing count (144), suggesting strong opportunities for co-branded marketing.
 
 
 
@@ -69,16 +59,13 @@ The dashboard translates complex data into actionable stories:
 
 ## Strategic Recommendations
 
-* 
-**Focus on Metros**: Prioritize diesel and premium petrol inventory in high-value markets like Mumbai.
+* **Focus on Metros**: Prioritize diesel and premium petrol inventory in high-value markets like Mumbai.
 
 
-* 
-**Growth Markets**: Target entry-level CNG options in regions seeking affordability.
+* **Growth Markets**: Target entry-level CNG options in regions seeking affordability.
 
 
-* 
-**Retention**: Tailor service plans for high-mileage, second-owner models to maximize after-sales revenue.
+* **Retention**: Tailor service plans for high-mileage, second-owner models to maximize after-sales revenue.
 
 
 
@@ -86,9 +73,7 @@ The dashboard translates complex data into actionable stories:
 
 ## Tools Used
 
-* 
-**MS Excel**: Power Query, Pivot Tables, Pivot Charts, Text-to-Column.
+* **MS Excel**: Power Query, Pivot Tables, Pivot Charts, Text-to-Column.
 
 
-* 
-**Data Techniques**: Normalization, Imputation, and Trend Analysis.
+* **Data Techniques**: Normalization, Imputation, and Trend Analysis.
